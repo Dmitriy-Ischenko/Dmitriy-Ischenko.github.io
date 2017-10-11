@@ -1,0 +1,29 @@
+.arcticmodal-overlay,
+.arcticmodal-container{position:fixed;left:0;top:0;right:0;bottom:0;z-index:1000;background-color:rgba(0,0,0, .7);}
+.arcticmodal-container{overflow:auto;margin:0;padding:0;border:0;border-collapse:collapse;}
+*:first-child+html .arcticmodal-container{height:100%}
+.arcticmodal-container_i{height:100%;margin:0 auto;}
+.arcticmodal-container_i2{padding:24px;margin:0;border:0;vertical-align:middle;}
+.arcticmodal-error{padding:20px;border-radius:10px;background:#000;color:#fff;}
+.arcticmodal-loading{width:80px;height:80px;border-radius:10px;background:#000 url(loading.gif) no-repeat 50% 50%;}
+.a-modal{position:relative;min-width:250px;max-width:825px;margin:1% auto;background:#fff;padding:15px 35px;}
+.b-modal{position:relative;width:600px;margin:10% auto;background:#fff;padding:25px 35px;}
+.b-modal img{float:left;padding-right:40px;}
+.clear{clear:both;}
+.b-modal p.text{max-width:600px;font-size:12px;line-height:1.4;margin-top:10px;}
+.wr-hidden{}
+.g-hidden{display:none;}
+.g-line{zoom:1;}
+.g-line:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.arcticmodal-close{position:absolute;width:10px;height:10px;top:5px;right:10px;cursor:pointer;}
+.title-hidden{font-size:16px;text-align:center;text-transform:uppercase;color:#333;font-family:"OpenSansBold",sans-serif;}
+.hidden-descript{color:#919191;font-size:12px;text-align:center;padding-top:5px;}
+.form-hidden a{text-decoration:none;}
+.name-hidden, .phone-hidden, .email-hidden{width:100%;height:40px;padding:0 15px;border:2px solid #555;text-transform:uppercase;font-family:"OpenSansBold",sans-serif;font-size:12px;margin-top:20px;color:#555;}
+.a-modal input:hover, .a-modal textarea:hover{border:2px solid #4E90C4;}
+.name-hidden{background:url(../images/modal/i-name.png) no-repeat 210px center;}
+.phone-hidden{background:url(../images/modal/i-phone.png) no-repeat 208px center;}
+.btn-hidden{width:240px;height:45px;display:block;margin:20px auto 0;border:2px solid #2d2b30;color:#2d2b30;font-family:"OpenSansBold",sans-serif;text-transform:uppercase;font-size:14px;background:none;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;}
+.btn-hidden:hover{background:#2d2b30;color:#fff;}
+.spoller{background:none;color:#000;border:none;color:#6178c1;font-size:14px;border-bottom:1px dotted #6178c1;}
+.comment{width:210px;height:70px;resize:none;padding:10px 15px;text-transform:uppercase;font-family:"OpenSansBold",sans-serif;font-size:12px;color:#c3c3c3;border:1px solid #e5e5e5;}
